@@ -11,8 +11,7 @@ At this time, all functions within any .ps1 files are imported as part of the mo
 You will need to also adjust your manifest file to include the new name of your main module file, and any metadata you want to include</br>
 Please follow best practices when adjusting the module manifest file </br>
 </br>
-Once this module is installed on a machine, each time it is explicitly or implicitly imported, the first step of the module will attempt to update</br>
-the module from the powershell gallery, and reload it before continuing the import</br>
+Once this module is installed on a machine, each time it is explicitly or implicitly imported, the first step of the module will attempt to update the module from the powershell gallery, and reload it before continuing the import</br>
 
 ## Known Issues
 At this time, all functions within any .ps1 files are imported as part of the module.</br>
